@@ -1,0 +1,1088 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+
+/* Header Section */
+
+header {
+    background-image: url('https://via.placeholder.com/1600x500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+/* Section Styles */
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+
+/* Skills Section */
+
+
+/* Skills Section */
+
+.skill-item {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    /* Align text to the left */
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 12px;
+    color: #333333;
+    font-weight: 600;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 5px;
+}
+
+.skill-item p {
+    font-size: 1.1em;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+    white-space: pre-wrap;
+    /* Allow text to wrap */
+}
+
+
+/* Improved Responsiveness */
+
+@media (max-width: 600px) {
+    /* Adjust breakpoint as needed */
+    .skills-container {
+        width: 95%;
+        padding: 10px;
+    }
+    .skill-item h3 {
+        font-size: 1.2em;
+    }
+    .skill-item p {
+        font-size: 1em;
+    }
+}
+
+
+/* Work Experience Section */
+
+.work-item {
+    margin-bottom: 30px;
+}
+
+.work-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.work-item ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.work-item ul li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+
+/* Project Section */
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+
+/* Contact Section */
+
+.contact-info {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+
+/* Header Section */
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://via.placeholder.com/1600x500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    /* Use a modern, elegant font */
+    color: #ffcc00;
+    /* Bright yellow color for visibility */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Add a shadow for a pop-out effect */
+    position: relative;
+}
+
+header h1::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #ffcc00;
+    display: block;
+    margin: 20px auto 0;
+}
+
+header p {
+    font-size: 1.3em;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+    color: #ffffff;
+    /* White text for contrast */
+}
+
+
+/* Work Experience Section */
+
+.work-experience {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    /* Elegant and modern font */
+    line-height: 1.6;
+    color: #333;
+    /* Dark text for better readability */
+}
+
+.work-experience h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ff6f61;
+    /* Soft accent color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.work-experience .job-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    /* Slightly darker for emphasis */
+    margin-top: 20px;
+}
+
+.work-experience .company-details {
+    font-size: 1.1em;
+    color: #555;
+    /* Subtle, less prominent color for details */
+    margin-bottom: 15px;
+}
+
+.work-experience ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.work-experience ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.work-experience ul li span {
+    font-weight: bold;
+    /* Highlight percentages or key points */
+    color: #ff6f61;
+    /* Match the accent color */
+}
+
+
+/* Technical Skills Section */
+
+.technical-skills {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    /* Soft background for contrast */
+    font-family: 'Poppins', sans-serif;
+    /* Modern, clean font */
+    color: #333;
+    /* Neutral, easy-to-read text color */
+    text-align: center;
+}
+
+.technical-skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for the title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.technical-skills .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.technical-skills .skill-category {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background: #ffffff;
+    /* White card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    padding: 20px;
+    margin: 10px;
+}
+
+.technical-skills .skill-category h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.technical-skills .skill-category p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    /* Softer text color for description */
+}
+
+
+/* Projects Section */
+
+#projects {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    /* Subtle background for separation */
+    font-family: 'Poppins', sans-serif;
+    /* Modern font */
+    color: #333;
+    /* Neutral text color */
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for section title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.project-item {
+    background: #ffffff;
+    /* Clean card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    /* Limit width for readability */
+    text-align: left;
+    /* Align text for better reading flow */
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+    /* Distinct heading color */
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    /* Softer color for description */
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    /* Subtle hover effect */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhance shadow on hover */
+}
+
+
+/* Certifications Section */
+
+#certifications {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    /* Light background to differentiate */
+    font-family: 'Poppins', sans-serif;
+    /* Modern and clean font */
+    color: #333;
+    /* Neutral text color */
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for the section title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#certifications ul {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 700px;
+    /* Limit width for better readability */
+    text-align: left;
+    /* Align text for readability */
+}
+
+#certifications li {
+    background: #ffffff;
+    /* Card-like design for each certification */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    padding: 15px 20px;
+    margin: 10px 0;
+    /* Space between certifications */
+    font-size: 1.2em;
+    color: #555;
+    /* Softer text color */
+    display: flex;
+    justify-content: space-between;
+    /* Align title and date */
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+#certifications li:hover {
+    transform: translateY(-5px);
+    /* Subtle hover animation */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow */
+}
+
+#certifications li span {
+    font-weight: bold;
+    color: #333;
+    /* Highlight certification platform */
+}
+
+
+/* Education Section */
+
+#education {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    /* Clean and professional background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    /* Neutral text color */
+}
+
+#education h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for the section title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.education-item {
+    background: #f9f9f9;
+    /* Light background for education items */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    padding: 20px;
+    margin: 20px 0;
+    /* Space between items */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.education-item h3 {
+    font-size: 1.8em;
+    color: #444;
+    /* Distinct color for degree title */
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #666;
+    /* Softer text color for details */
+}
+
+.education-item p span {
+    font-weight: bold;
+    color: #333;
+    /* Highlight institution name and key details */
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for the last item */
+}
+
+@media (max-width: 768px) {
+    #education h2 {
+        font-size: 2em;
+    }
+    .education-item h3 {
+        font-size: 1.5em;
+    }
+    .education-item p {
+        font-size: 1em;
+    }
+}
+
+
+/* About Me Section */
+
+#about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for section title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.about-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+.about-item:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.about-item p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #666;
+    /* Softer text color */
+}
+
+
+/* Contact Information Section */
+
+#contact-info {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+#contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* Accent color for section title */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.contact-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #666;
+}
+
+.contact-info a {
+    color: #ff6f61;
+    /* Accent color for links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Design for Smaller Screens */
+
+@media (max-width: 768px) {
+    #about h2,
+    #contact-info h2 {
+        font-size: 2em;
+    }
+    .about-item p,
+    .contact-info li {
+        font-size: 1em;
+    }
+}
+
+
+/* General styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+
+/* Main content styles */
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+
+/* Section styling */
+
+.section {
+    padding: 40px 0;
+    margin: 20px 0;
+}
+
+.section p,
+.section ul {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+
+/* Skills section layout */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skill-category h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+
+/* Project section styling */
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+
+/* Responsiveness: Adjust layout for smaller screens */
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 150px;
+        padding-top: 10px;
+    }
+    .main-content {
+        margin-left: 160px;
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 0;
+    }
+    .sidebar a {
+        padding: 10px 15px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+
+/* Work Experience Section - Updated */
+
+#work-experience {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    /* Match Education section background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+#work-experience h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    /* Center the heading */
+}
+
+.work-experience-item {
+    background: #f9f9f9;
+    /* Match Education item background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.work-experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.work-experience-item h3 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.work-experience-item p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #666;
+}
+
+.work-experience-item p span {
+    font-weight: bold;
+    color: #333;
+}
+
+.work-experience-item ul {
+    list-style-type: disc;
+    /* Keep bullet points */
+    margin-left: 20px;
+    /* Adjust left margin for bullet points */
+    padding-left: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.work-experience-item ul li {
+    margin-bottom: 5px;
+    /* Adjust spacing between list items */
+}
+
+.work-experience-item ul li span {
+    font-weight: bold;
+    color: #333;
+}
+
+.work-experience-item:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #work-experience h2 {
+        font-size: 2em;
+    }
+    .work-experience-item h3 {
+        font-size: 1.5em;
+    }
+    .work-experience-item p,
+    .work-experience-item ul {
+        font-size: 1em;
+    }
+}
+
+
+/* General Styling for the Section */
+
+#skills {
+    /* Or .technical-skills if you have that class */
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+#skills h2 {
+    /* Or .technical-skills h2 */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+    /* This is the key change */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* Container for Skills */
+
+.technical-skills .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Individual Skill Category */
+
+.skill-category {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.skill-category h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.skill-category p {
+    font-size: 1em;
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+    .skill-category {
+        width: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 150px;
+    /* Set the desired width */
+    height: 150px;
+    /* Set the desired height */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image scales nicely */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 10px 0 5px;
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffb74d;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #ffb74d;
+}
+
+.github-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #24292e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #0366d6;
+}
+
+.certificate-button {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove border */
+    padding: 10px 20px;
+    /* Add some padding */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Align the button inline */
+    font-size: 16px;
+    /* Font size */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.certificate-button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
